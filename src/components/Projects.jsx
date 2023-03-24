@@ -15,6 +15,7 @@ const projects= () => {
       stackused:["react","rapid api","material ui"],
       About:"workout planner and target body parts",
     },
+
     {
       id: 2,
       src:PizzaDelivery,
