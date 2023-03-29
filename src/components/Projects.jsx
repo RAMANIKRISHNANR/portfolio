@@ -1,5 +1,5 @@
 import React from "react";
-import multifit_gym from "../assets/portfolio/multifit_gym.jpg";
+import BlogApp from "../assets/portfolio/Blog.jpeg";
 import PizzaDelivery from "../assets/portfolio/Pizza.jpeg";
 import ChatApplication from "../assets/portfolio/Chat.png";
 import zoom from "../assets/portfolio/zoom.jpg";
@@ -9,27 +9,26 @@ const projects= () => {
   const projects = [
     {
       id: 1,
-      src:multifit_gym ,
-      live:"https://mutlifit-gym.netlify.app",
-      code:"https://github.com/RAMANIKRISHNANR/gym",
-      stackused:["react","rapid api","material ui"],
-      About:"workout planner and target body parts",
+      src:BlogApp ,
+      live:"https://guileless-brigadeiros-d83e8a.netlify.app",
+      code:"https://github.com/RAMANIKRISHNANR/blog",
+      stackused:["React","MongoDB","Node.js","Express.js"],
+      About:"Blog application",
     },
-
     {
       id: 2,
       src:PizzaDelivery,
       About: "Pizza Delivery Application",
       live:"https://moonlit-valkyrie-394dd9.netlify.app",
       code:"https://github.com/RAMANIKRISHNANR/pizza",
-      stackused:["React","MOngoDB","Node.js","Express.js"],
+      stackused:["React","MongoDB","Node.js","Express.js"],
     },
     {
       id: 3,
       src:ChatApplication,
       About: "Chat Application ",
-      live:"https://famous-pony-c77e1e.netlify.app",
-      code:"https://github.com/RAMANIKRISHNANR/mern-chat",
+      live:"https://illustrious-gumdrop-ecd715.netlify.app",
+      code:"https://github.com/RAMANIKRISHNANR/chatapp",
       stackused:["React","MongoDb","Node.js","Express.js"],
     },
     {
