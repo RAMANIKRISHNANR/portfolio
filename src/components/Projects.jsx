@@ -1,7 +1,7 @@
 import React from "react";
 import BlogApp from "../assets/portfolio/Blog.jpeg";
 import PizzaDelivery from "../assets/portfolio/Pizza.jpeg";
-import ChatApplication from "../assets/portfolio/Chat.png";
+import Amazon from "../assets/portfolio/Amazon.png";
 import zoom from "../assets/portfolio/zoom.jpg";
 
 
@@ -25,10 +25,10 @@ const projects= () => {
     },
     {
       id: 3,
-      src:ChatApplication,
-      About: "Chat Application ",
-      live:"https://illustrious-gumdrop-ecd715.netlify.app",
-      code:"https://github.com/RAMANIKRISHNANR/chatapp",
+      src:Amazon,
+      About: "Online product selling",
+      live:"https://scintillating-praline-e1b15e.netlify.app",
+      code:"https://github.com/RAMANIKRISHNANR/amazon-frontend",
       stackused:["React","MongoDb","Node.js","Express.js"],
     },
     {
